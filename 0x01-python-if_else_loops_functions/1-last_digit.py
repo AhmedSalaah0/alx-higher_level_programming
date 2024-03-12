@@ -8,4 +8,3 @@ elif Last == 0:
     print (f"Last digit of {number} is {Last} and is 0")
 elif Last < 6:
     print(f"Last digit of {number} is {Last} and is less than 6 and not 0")
-
