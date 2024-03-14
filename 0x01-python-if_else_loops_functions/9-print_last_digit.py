@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 def print_last_digit(number):
-    l = abs(number - (int)(number / 10) * 10)
-    print(l, end="")
+    last = abs(number - (int)(number / 10) * 10)
+    print(last, end="")
 
-    return l
-    
+    return last
