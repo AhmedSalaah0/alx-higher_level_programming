@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def divisible_by_2(my_list=[]):
-    resultList = []
+    resultList = my_list
     for i in my_list:
         if my_list[i] % 2 == 0:
-            resultList.append(True)
+            resultList[i] = True
         else:
-            resultList.append(False)
+            resultList[i] = False
     return resultList
